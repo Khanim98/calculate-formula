@@ -1,0 +1,22 @@
+.tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    user-select: none;
+    margin-right: 2px;
+    transition: background-color 0.2s, border-color 0.2s;
+    &.subTag{
+      padding: 4px 10px;
+      border: 1px solid #a5d8ff;
+      background-color: #e6f4ff;
+      color: #0d6efd;
+      &:hover {
+        background-color: #d0ebff;
+        border-color: #74c0fc;
+      }
+    }
+  }
+  
