@@ -1,4 +1,4 @@
-import styles from './Dropdown.module.scss';
+import styles from './DropDown.module.scss';
 
 interface DropdownProps {
   children: React.ReactNode;
